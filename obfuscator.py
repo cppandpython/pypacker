@@ -21,6 +21,7 @@ from codecs import encode as codecs
 from zlib import compress as zlib
 
 
+BASE = (bin, oct, hex)
 ENCODING = getencoding()
 
 
@@ -35,16 +36,11 @@ def {}():
 
 
 def chr_str(s):
-    base = [bin, oct, hex]
-    
-    return '+'.join(f'chr({base[randbelow(3)](ord(n))})' for n in s)
+    return '+'.join(f'chr({BASE[randbelow(3)](ord(n))})' for n in s)
 
 
 def name():
-    return ''.join(
-        choice(ascii_letters)
-        for _ in range(5 + randbelow(6))
-    )
+    return ''.join(choice(ascii_letters) for _ in range(5 + randbelow(6)))
 
 
 def enc(s):
