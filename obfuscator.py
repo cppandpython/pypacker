@@ -50,7 +50,7 @@ def enc(s):
     for (i, n) in enumerate(s):
         x = ord(n) ^ ((KEY[1] + f + i) & 0xFF)
         f = (f ^ x) & 0xFF
-        r.append(str(chr(x)))
+        r.append(chr(x))
 
     return ''.join(r)
 
@@ -130,3 +130,4 @@ def main():
 
 
 if __name__ == '__main__': main()
+
