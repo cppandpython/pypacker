@@ -14,7 +14,6 @@
 from string import ascii_letters
 from sys import argv, version_info
 from os.path import isfile, split as splitp, join as joinp
-from locale import getencoding
 from secrets import choice, randbelow, token_bytes
 from lzma import compress as lzma, FORMAT_XZ, CHECK_CRC64, PRESET_EXTREME
 from codecs import encode as codecs
@@ -22,7 +21,7 @@ from zlib import compress as zlib
 
 
 BASE = (bin, oct, hex)
-ENCODING = getencoding()
+ENCODING = 'UTF-8'
 
 
 INITPYC = '''
@@ -127,6 +126,7 @@ def main():
                 print(f'({fp}) is not file')
     else:
         print(f'python{version_info.major} {splitp(argv[0])[-1]} (path)  —  Obfuscate Python file')
+
 
 
 if __name__ == '__main__': main()
