@@ -1,4 +1,4 @@
-# 🌟 Obfuscator
+# 🌟 Pypacker
 
 
 <br><br>
@@ -8,14 +8,14 @@
 
 <br>
 
-obfuscator - Obfuscate Python code for security purposes, but leave it executable
+pypacker - 
 
 <br>
 
 ## 🚀 Features
 
 - ✅ Obfuscate Python Code
-- ⚙️ It remain executable
+- ⚙️ Code remain executable
 - 📦 Built-in libraries only
   
 <br>
@@ -24,10 +24,10 @@ obfuscator - Obfuscate Python code for security purposes, but leave it executabl
 
 ```bash
 # Clone the repository
-git clone https://github.com/cppandpython/obfuscator.git
+git clone https://github.com/cppandpython/pypacker.git
 
 # Launch
-python obfuscator.py
+python pypacker.py
 ```
 
 
@@ -38,14 +38,14 @@ python obfuscator.py
 
 <br>
 
-obfuscator - Обфусцирует код Python в целях безопасности, но оставляет его исполняемым
+pypacker - 
 
 <br>
 
 ## 🚀 Функции
 
 - ✅ Запутывает код Python
-- ⚙️ Он остается исполняемым
+- ⚙️ Код остается исполняемым
 - 📦 Только встроенные библиотеки
 
 <br>
@@ -54,8 +54,8 @@ obfuscator - Обфусцирует код Python в целях безопасн
 
 ```bash
 # Клонируй репозиторий
-git clone https://github.com/cppandpython/obfuscator.git
+git clone https://github.com/cppandpython/pypacker.git
 
 # Запуск
-python obfuscator.py 
+python pypacker.py 
 ```
