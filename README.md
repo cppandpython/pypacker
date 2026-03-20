@@ -1,4 +1,4 @@
-# 🌟 PYTHON_PACKER - Python Code Obfuscator
+# 🌟 PYPACKER 
 
 
 <p align="center">
